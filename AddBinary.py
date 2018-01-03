@@ -39,6 +39,7 @@ class AddBinary(object):
 if __name__ == '__main__':
     ab = AddBinary()
     print ab.addBinary('1010','1011')
+    print ab.addBinaryOptimal('1010', '1011')
 
 
 
