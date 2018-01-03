@@ -1,3 +1,5 @@
+代码在 Python 2.7.10 环境下测试通过
+
 # Add Binary
 
 Given two binary strings, return their sum (also a binary string).
