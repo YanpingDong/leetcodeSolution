@@ -37,6 +37,8 @@ The minute must be consist of two digits and may contain a leading zero, for exa
 
 Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
 
+> 给定一个正整数，检查它是否有可交替位：即，是否两个相邻的位总是不同的值。
+
 Example 1:
 
 ```
