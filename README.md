@@ -30,3 +30,27 @@ Note:
 The order of output does not matter.
 The hour must not contain a leading zero, for example "01:00" is not valid, it should be "1:00".
 The minute must be consist of two digits and may contain a leading zero, for example "10:2" is not valid, it should be "10:02".
+
+# Binary Number with Alternating Bits
+
+[Leetcode problem description](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)
+
+Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
+
+Example 1:
+
+```
+Input: 5
+Output: True
+Explanation:
+The binary representation of 5 is: 101
+```
+
+Example 2:
+
+```
+Input: 7
+Output: False
+Explanation:
+The binary representation of 7 is: 111.
+```
