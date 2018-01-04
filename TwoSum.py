@@ -34,3 +34,4 @@ if __name__ == '__main__':
     print ts.twoSumOptimal([2, 5, 5, 11], 10)
     print ts.twoSumOptimal([3, 2, 4], 6)
     print ts.twoSumOptimal([3, 3], 6)
+
