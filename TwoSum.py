@@ -23,13 +23,10 @@ class TwoSum(object):
         numsLen = len(nums)
         for i in range(0, numsLen):
             num = nums[i]
-            print remainder.get(num,False)
-            if(remainder.get(num) or 0 == remainder.get(num)):
+            if( remainder.has_key(num) ):
                 return [remainder[num], i]
             else:
                 remainder[target-num] = i
-
-
 
 if __name__ == '__main__':
     ts = TwoSum()
